@@ -1,0 +1,23 @@
+manifest_version: 1
+version:
+  name: V1
+  label: Version One
+  comment: The first version of the application
+artifacts:
+  setup_script: scripts/setup_script.sql
+  readme: libraries/readme.md
+# manifest_version: 1
+# version:
+#   name: V1
+#   label: Version One
+#   comment: The first version of the application
+# artifacts:
+#   - setup_script: scripts/setup_script.sql
+#   - readme: README.md
+#   - src: streamlit/app.py
+#     dest: .
+# ui:
+#   entry_point: streamlit/app.py  # Corrected path
+# dependencies:
+#   - streamlit
+#   - snowflake-snowpark-python
